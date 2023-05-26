@@ -1,0 +1,437 @@
+[
+  {
+    "name": "hosttools_linux-aarch64.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/hosttools_linux-aarch64.tar.gz",
+    "sha256": "d589de9d0751e3a6f4cf5954f04a7b0d0c00be47dd97a02d322b08a5741de6a3"
+  },
+  {
+    "name": "hosttools_linux-x86_64.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/hosttools_linux-x86_64.tar.gz",
+    "sha256": "83d910b550aebf9ef982a4aeffde4622ff444547062ff4430bf7ccf31ee2b2a6"
+  },
+  {
+    "name": "toolchain_linux-aarch64_aarch64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_aarch64-zephyr-elf.tar.gz",
+    "sha256": "4858a13606517c9505bfe76f36c008cb7c72198912443e1ccc2775b4ee826f60"
+  },
+  {
+    "name": "toolchain_linux-aarch64_arc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_arc-zephyr-elf.tar.gz",
+    "sha256": "8ab8605712515969f32a29e5d12d7403de98d86589af3d7cb34d0ceb92b3a290"
+  },
+  {
+    "name": "toolchain_linux-aarch64_arc64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_arc64-zephyr-elf.tar.gz",
+    "sha256": "6431a8337425d1710d7146ea4ce3121fc62d3248b820e445538f5eed092ab16e"
+  },
+  {
+    "name": "toolchain_linux-aarch64_arm-zephyr-eabi.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_arm-zephyr-eabi.tar.gz",
+    "sha256": "8c4685b7926fcaca9091fff54848c917896b725f5246db331885519b68352247"
+  },
+  {
+    "name": "toolchain_linux-aarch64_mips-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_mips-zephyr-elf.tar.gz",
+    "sha256": "facf99b41a19bcb881127b62ac9a89d876f6e7224f57877dc7fce23a2092328e"
+  },
+  {
+    "name": "toolchain_linux-aarch64_nios2-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_nios2-zephyr-elf.tar.gz",
+    "sha256": "377c442960e70bbe79b1fbcb20c65b925333e1d047ea6ed530ca68085cd925b3"
+  },
+  {
+    "name": "toolchain_linux-aarch64_riscv64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_riscv64-zephyr-elf.tar.gz",
+    "sha256": "66830998ec7115aa9b3afd90fbbc3b2cfd27a925ad3a46903cb2a750e45b74c9"
+  },
+  {
+    "name": "toolchain_linux-aarch64_sparc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_sparc-zephyr-elf.tar.gz",
+    "sha256": "a1900dbc4cb87a45d828640a6c94d1de91a43969a874b8dab2d0f735d88cda7b"
+  },
+  {
+    "name": "toolchain_linux-aarch64_x86_64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_x86_64-zephyr-elf.tar.gz",
+    "sha256": "781f3e37201629cd8af26361c89d5f2cabe879ee1f8ed5976a9279c0f56d8477"
+  },
+  {
+    "name": "toolchain_linux-aarch64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "sha256": "0dde669683e91a83a2ff31238db6fb8a8549105b6ef9e11ffa49d8d926315bbd"
+  },
+  {
+    "name": "toolchain_linux-aarch64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "sha256": "1d5dc21dfec9e51fcbb3d4acaae720dd55f71763bd06fe6d50f4dcce9257a4e5"
+  },
+  {
+    "name": "toolchain_linux-aarch64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "sha256": "319a980f9a76f208b842b954e470b448073673f583d08953aaf17da1ef8c54ff"
+  },
+  {
+    "name": "toolchain_linux-aarch64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "sha256": "9c8115fac468fe3f547418aa43720877e3cfd8ab58b03b0fd8b45ab1ac89dfea"
+  },
+  {
+    "name": "toolchain_linux-aarch64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "sha256": "9de37fb7ed75e89deb683f9b832e98f29be96e9360f9ca2ee1cd821e9d694a6a"
+  },
+  {
+    "name": "toolchain_linux-aarch64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "sha256": "52f3760102a622839678e54c31bb9e5b912dc4e60884480e38a9b60879208778"
+  },
+  {
+    "name": "toolchain_linux-aarch64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-aarch64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "sha256": "dc9b91a8489b36d676e0a047601175086aa8b68b483860bf1e7ccbf2e0567ef5"
+  },
+  {
+    "name": "toolchain_linux-x86_64_aarch64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_aarch64-zephyr-elf.tar.gz",
+    "sha256": "3f3bdf9c035808fea825dfc573354c63add60ede8c6f347047082f7a1ff3b405"
+  },
+  {
+    "name": "toolchain_linux-x86_64_arc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_arc-zephyr-elf.tar.gz",
+    "sha256": "33268097ac521dbd99add322ea773db2f3fbb4eb1bfdc5890121d5c5ddede8f5"
+  },
+  {
+    "name": "toolchain_linux-x86_64_arc64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_arc64-zephyr-elf.tar.gz",
+    "sha256": "6667af0589da8c4821fa38350edd85e7961dc96519119be9fa428a7a6888e06d"
+  },
+  {
+    "name": "toolchain_linux-x86_64_arm-zephyr-eabi.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_arm-zephyr-eabi.tar.gz",
+    "sha256": "59f7072a0371af8fe80fdae26dd7f018efcfb23c2e357210f9de31df6bd45823"
+  },
+  {
+    "name": "toolchain_linux-x86_64_mips-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_mips-zephyr-elf.tar.gz",
+    "sha256": "8b820a90116f6b2f2d5464c15047290c044d14fd3f568645cb03bd2acbae638b"
+  },
+  {
+    "name": "toolchain_linux-x86_64_nios2-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_nios2-zephyr-elf.tar.gz",
+    "sha256": "01890cffa229709bc78066c6fcb4dc2fd83f895cf7a5f43c52d1cf9f1ff4ac7b"
+  },
+  {
+    "name": "toolchain_linux-x86_64_riscv64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_riscv64-zephyr-elf.tar.gz",
+    "sha256": "20570268548156c3afa71ea188aaec6c1d7ec39671c4aa8fc67ddc3cd6d8a6f2"
+  },
+  {
+    "name": "toolchain_linux-x86_64_sparc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_sparc-zephyr-elf.tar.gz",
+    "sha256": "dad616427882e071bc2203f76d3652fcf5ca5a0d3f491c51189dcb91062f4802"
+  },
+  {
+    "name": "toolchain_linux-x86_64_x86_64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_x86_64-zephyr-elf.tar.gz",
+    "sha256": "55e02746fdb53ffdcbd1ac08138da9c5111faccad86d200181e1bfc51688da34"
+  },
+  {
+    "name": "toolchain_linux-x86_64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "sha256": "6b339b9c15dac922ec8b13ccb876be90134e9a206db120b86d8ae0414041b48a"
+  },
+  {
+    "name": "toolchain_linux-x86_64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "sha256": "000de7d6da775f75d56386fb93cf6cdd408fe0cd0dce128bcb5197591d1c923b"
+  },
+  {
+    "name": "toolchain_linux-x86_64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "sha256": "6a1e66f6ff31f5cab7f0aa8cfbe76a956c8c741b7e00c15f8c77ffbf2b870ad5"
+  },
+  {
+    "name": "toolchain_linux-x86_64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "sha256": "3a4e666de518d73be1b77f5e3333b78dca0b13696455159e20c6fae7f6a71132"
+  },
+  {
+    "name": "toolchain_linux-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "sha256": "6ee3c26e0116a833b8037a37b3597244edc0dbfaa89e3338a3eb7aba3c622006"
+  },
+  {
+    "name": "toolchain_linux-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "sha256": "9deee19a633cfb374d98c4fc113db8afab3dcbde03d38a0359b00f91c42f64a7"
+  },
+  {
+    "name": "toolchain_linux-x86_64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_linux-x86_64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "sha256": "695284cb6c5656ebaab0440211a2d5e49d6870e13931666c38e76ae9fcf7a85d"
+  },
+  {
+    "name": "toolchain_macos-aarch64_aarch64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_aarch64-zephyr-elf.tar.gz",
+    "sha256": "5f22111a2cd7bc7847fac8781fda3b25f902b57329009640b69472d8b4069573"
+  },
+  {
+    "name": "toolchain_macos-aarch64_arc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_arc-zephyr-elf.tar.gz",
+    "sha256": "8d3daf452c62f8ea083deda049038970dc36daa2686559993450f7f7cd6bf492"
+  },
+  {
+    "name": "toolchain_macos-aarch64_arc64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_arc64-zephyr-elf.tar.gz",
+    "sha256": "1340c9d48295223232a8df3894a6d171716ca5e5ac014c21baf0b43f3c83c37a"
+  },
+  {
+    "name": "toolchain_macos-aarch64_arm-zephyr-eabi.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_arm-zephyr-eabi.tar.gz",
+    "sha256": "47e301f8f9ca028680cd905a7f93793c1229f9a46981ca57fbd85e904e636572"
+  },
+  {
+    "name": "toolchain_macos-aarch64_mips-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_mips-zephyr-elf.tar.gz",
+    "sha256": "f7742ae5e81d4658958b328563867ad80000760ef0916df80081faaea11468e1"
+  },
+  {
+    "name": "toolchain_macos-aarch64_nios2-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_nios2-zephyr-elf.tar.gz",
+    "sha256": "e24ff4a2fc71195a5e65a0aa24e3184d78b0ed5f27f8ca3453b1c301c8112b15"
+  },
+  {
+    "name": "toolchain_macos-aarch64_riscv64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_riscv64-zephyr-elf.tar.gz",
+    "sha256": "237951d1c93358e1b3c2402710bf7df97b53531c8d36aec44b8fa121994cc88e"
+  },
+  {
+    "name": "toolchain_macos-aarch64_sparc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_sparc-zephyr-elf.tar.gz",
+    "sha256": "b569a986aadd6f42caf818e49b124f921cec66130f6849e02369f4935e557584"
+  },
+  {
+    "name": "toolchain_macos-aarch64_x86_64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_x86_64-zephyr-elf.tar.gz",
+    "sha256": "8acca81914c26017da73b88e4c33f6276758b07ea4b32a6365cd4efa9b3916c4"
+  },
+  {
+    "name": "toolchain_macos-aarch64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "sha256": "e46d74e958ed0ea24ffe9c6a88ef0e1a240ac0e974730a10ab7b235d96a846ef"
+  },
+  {
+    "name": "toolchain_macos-aarch64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "sha256": "37377868f5cb422a895b611b3e2636ab9870f360ce83db07fcfdfddcfef182a2"
+  },
+  {
+    "name": "toolchain_macos-aarch64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "sha256": "4bf4a169df335d38c812e474289130021c94a68242fff3e0117f3596ad5d5f02"
+  },
+  {
+    "name": "toolchain_macos-aarch64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "sha256": "6c34c01ff971329551cfb03b4cdcb1e762247ce12d43eed256bce6ab5f686186"
+  },
+  {
+    "name": "toolchain_macos-aarch64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "sha256": "7cbed815c1fa00d95613d40c962c0e230721e953ba29d71d0839b7090575dca9"
+  },
+  {
+    "name": "toolchain_macos-aarch64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "sha256": "c56d20eef13eaca7a3859c207dbb0b7d282e605519987fff05527cbe74415d8d"
+  },
+  {
+    "name": "toolchain_macos-aarch64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-aarch64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "sha256": "285b8b6dbaf8bf43b54c311e5a5e940504377b599eecc445917717eb60ba4811"
+  },
+  {
+    "name": "toolchain_macos-x86_64_aarch64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_aarch64-zephyr-elf.tar.gz",
+    "sha256": "d584a97be960a83991449a0abe5927da2c289cc8043224fcdfec89e826a90c6e"
+  },
+  {
+    "name": "toolchain_macos-x86_64_arc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_arc-zephyr-elf.tar.gz",
+    "sha256": "19075108b49246cd410964e6cb72942f2cc6cb2517414ba96884dd28848a8412"
+  },
+  {
+    "name": "toolchain_macos-x86_64_arc64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_arc64-zephyr-elf.tar.gz",
+    "sha256": "cb38ccdb7865cfdf802b04dd27d652575680ebe5d698a1ce1d791b793a4cf027"
+  },
+  {
+    "name": "toolchain_macos-x86_64_arm-zephyr-eabi.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_arm-zephyr-eabi.tar.gz",
+    "sha256": "b198041d8dffd68662acc8f46b8e168a016722143aa425ba46a975394ede2cf0"
+  },
+  {
+    "name": "toolchain_macos-x86_64_mips-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_mips-zephyr-elf.tar.gz",
+    "sha256": "8eff6aed0b97c7e4a2173bfdfcea4c4235c7a8fbf106f8360cbc1c15076e668c"
+  },
+  {
+    "name": "toolchain_macos-x86_64_nios2-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_nios2-zephyr-elf.tar.gz",
+    "sha256": "0a94a425e92d8c21bb1c36d3ec1e1f67afde9a706ccee41cfcb80321e95b4f4d"
+  },
+  {
+    "name": "toolchain_macos-x86_64_riscv64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_riscv64-zephyr-elf.tar.gz",
+    "sha256": "b8a645ddf442f35a18a87c68451a49310d0b6484392a60b81b6d56875e74efc7"
+  },
+  {
+    "name": "toolchain_macos-x86_64_sparc-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_sparc-zephyr-elf.tar.gz",
+    "sha256": "7c3cba9969e013bd6f92bc863f3d541f64d3e7ad9ce3efc46c481c6a88eca001"
+  },
+  {
+    "name": "toolchain_macos-x86_64_x86_64-zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_x86_64-zephyr-elf.tar.gz",
+    "sha256": "47029f21af5fb7b4e9eb64504c2218863c0972eafa83210c4fc4b87516dd32ce"
+  },
+  {
+    "name": "toolchain_macos-x86_64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_xtensa-intel_apl_adsp_zephyr-elf.tar.gz",
+    "sha256": "81104521bbe0716d0cc8a2fafaf9cac63f1fef1124bd17f0b3f079858a386726"
+  },
+  {
+    "name": "toolchain_macos-x86_64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_xtensa-intel_bdw_adsp_zephyr-elf.tar.gz",
+    "sha256": "25f4bbfbb55b24ebf32c162e40c1996a7494c084d7574fe2f196157b4229653b"
+  },
+  {
+    "name": "toolchain_macos-x86_64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_xtensa-intel_byt_adsp_zephyr-elf.tar.gz",
+    "sha256": "5ae4008e0faee2f54c688a2d4d70a009b53ef99933efe45f9b1b3e9d10e974a7"
+  },
+  {
+    "name": "toolchain_macos-x86_64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_xtensa-intel_s1000_zephyr-elf.tar.gz",
+    "sha256": "e7a895e54f69240fc3f3dabd1c3a9aa24ebfa1bae229cab73e8703939cb85fa8"
+  },
+  {
+    "name": "toolchain_macos-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.gz",
+    "sha256": "cb9cae52a39d94979e4bea62d916f0538d91b4f9fad4a82f966ed6def96afb6d"
+  },
+  {
+    "name": "toolchain_macos-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.tar.gz",
+    "sha256": "6a7acc1bc033f727c84bf31bc78a9ef7a4d9a74d7cd7ef60303b1296074cd093"
+  },
+  {
+    "name": "toolchain_macos-x86_64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_macos-x86_64_xtensa-sample_controller_zephyr-elf.tar.gz",
+    "sha256": "d5f0db6228114b3af0041108de2d145867dd74ca1b4c25a6372e63d44b974826"
+  },
+  {
+    "name": "toolchain_windows-x86_64_aarch64-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_aarch64-zephyr-elf.zip",
+    "sha256": "d754d7b51350c6c4be752f71561bd6fb30e284a9c3e31f8d9d2a3bc6ca6e89aa"
+  },
+  {
+    "name": "toolchain_windows-x86_64_arc-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_arc-zephyr-elf.zip",
+    "sha256": "b0056bc83496331458ace00b1e12447d67968512407d4820d063609b93394fb2"
+  },
+  {
+    "name": "toolchain_windows-x86_64_arc64-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_arc64-zephyr-elf.zip",
+    "sha256": "5164fcf7c18aadffcd8d5736a20b81d27c4701dbfe2dbe568cf26facf7e82772"
+  },
+  {
+    "name": "toolchain_windows-x86_64_arm-zephyr-eabi.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_arm-zephyr-eabi.zip",
+    "sha256": "5b94d788246d14bc2132e05e1b6a52f6604870659adf96dd76c2ff0bd3c59300"
+  },
+  {
+    "name": "toolchain_windows-x86_64_mips-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_mips-zephyr-elf.zip",
+    "sha256": "08fb7fbc5655e9bc3ecd5f692eedbe4abc29bfd15d7ae70a427cb9d4a8695073"
+  },
+  {
+    "name": "toolchain_windows-x86_64_nios2-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_nios2-zephyr-elf.zip",
+    "sha256": "32ce2897d1e23db6a9f5eeb6b12893bd21fcbcc2f4850723d431b07e26371ea7"
+  },
+  {
+    "name": "toolchain_windows-x86_64_riscv64-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_riscv64-zephyr-elf.zip",
+    "sha256": "4a91056c885a3770df64124bf67b73135ba26effd846060d2942c486a1062daa"
+  },
+  {
+    "name": "toolchain_windows-x86_64_sparc-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_sparc-zephyr-elf.zip",
+    "sha256": "5f8c71a89b541777a076e1e46868824b0a7c706cd8ed6a141180d17567f0db3c"
+  },
+  {
+    "name": "toolchain_windows-x86_64_x86_64-zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_x86_64-zephyr-elf.zip",
+    "sha256": "ae4ee3a67c953bc2b9dff4c812442a87aa908d9d46cb38f646dc84dad854e512"
+  },
+  {
+    "name": "toolchain_windows-x86_64_xtensa-intel_apl_adsp_zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_xtensa-intel_apl_adsp_zephyr-elf.zip",
+    "sha256": "4776cf6c11199da6eb44573cd5bf0c896ab1008286be38d48f88ebcf25f0d87a"
+  },
+  {
+    "name": "toolchain_windows-x86_64_xtensa-intel_bdw_adsp_zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_xtensa-intel_bdw_adsp_zephyr-elf.zip",
+    "sha256": "022d602c19469e95d2fb2a3db8f4503cc4f71bb15774a06b9e4c05f2bf544706"
+  },
+  {
+    "name": "toolchain_windows-x86_64_xtensa-intel_byt_adsp_zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_xtensa-intel_byt_adsp_zephyr-elf.zip",
+    "sha256": "354abb8bd418fee6941af0fd0aa4e8d0294d0efca9cca09e789550be65f65e07"
+  },
+  {
+    "name": "toolchain_windows-x86_64_xtensa-intel_s1000_zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_xtensa-intel_s1000_zephyr-elf.zip",
+    "sha256": "abc56e5444995e09272c671b4eaa4dc98ee874adb123a934b8edaaa1ca656692"
+  },
+  {
+    "name": "toolchain_windows-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.zip",
+    "sha256": "820983ade6fb0b9ecfa4432cc4d4f26fbf4e24e7432f6d980fae5f2677cad8c9"
+  },
+  {
+    "name": "toolchain_windows-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.zip",
+    "sha256": "01bf9031863fd384ef89b1d0e2939352ade56170963f671d07796b8b7ef45ef0"
+  },
+  {
+    "name": "toolchain_windows-x86_64_xtensa-sample_controller_zephyr-elf.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/toolchain_windows-x86_64_xtensa-sample_controller_zephyr-elf.zip",
+    "sha256": "116248d5e6598e32ebb0d5d11f36ce5123605ba98f62dda0c6bdb4e9094d51be"
+  },
+  {
+    "name": "zephyr-sdk-0.14.0_linux-aarch64.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/zephyr-sdk-0.14.0_linux-aarch64.tar.gz",
+    "sha256": "ccf04ed363e667eab0274bdf07e15b829200447a68ec31c751bbadd0e88d58a7"
+  },
+  {
+    "name": "zephyr-sdk-0.14.0_linux-x86_64.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/zephyr-sdk-0.14.0_linux-x86_64.tar.gz",
+    "sha256": "eb486e1944c715c984410481425c75f8c019a3a9aaec885a23ce1a2059498ba0"
+  },
+  {
+    "name": "zephyr-sdk-0.14.0_macos-aarch64.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/zephyr-sdk-0.14.0_macos-aarch64.tar.gz",
+    "sha256": "171b7b14a939e6324c9316ed7fbd9c956c52458a2b3b8b0bf22bc47ccc9af9b1"
+  },
+  {
+    "name": "zephyr-sdk-0.14.0_macos-x86_64.tar.gz",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/zephyr-sdk-0.14.0_macos-x86_64.tar.gz",
+    "sha256": "4420617c4a02da1a6db629e093952499ca874f288fc0d8ef36b6706fd324b187"
+  },
+  {
+    "name": "zephyr-sdk-0.14.0_windows-x86_64.zip",
+    "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.0/zephyr-sdk-0.14.0_windows-x86_64.zip",
+    "sha256": "d31fb63e27af57d19edbb64cf565ed5a627ba995d441531dc38418c66111f500"
+  }
+]
