@@ -107,9 +107,9 @@
                 (builtins.map (x: builtins.readFile x) [
                   (inputs.zephyr + "/scripts/requirements-base.txt")
                   (inputs.zephyr + "/scripts/requirements-build-test.txt")
-                  (inputs.zephyr + "/scripts/requirements-doc.txt")
+                  # (inputs.zephyr + "/scripts/requirements-doc.txt")
                   # TODO make this work
-                  # (inputs.zephyr + "/scripts/requirements-run-test.txt")
+                  (inputs.zephyr + "/scripts/requirements-run-test.txt")
                   (inputs.zephyr + "/scripts/requirements-extras.txt")
                   (inputs.zephyr + "/scripts/requirements-compliance.txt")
                 ]);
