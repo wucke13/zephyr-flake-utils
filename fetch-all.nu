@@ -13,7 +13,7 @@ module commands {
    ] {
     let base_url = "https://api.github.com/repos"
     mut headers = []
-    let token = "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"
+    let token = $env.GITHUB_TOKEN
 
     if ($token != null) {
       $headers = ($headers | append [ "Authorization" $"token ($token)" ])
