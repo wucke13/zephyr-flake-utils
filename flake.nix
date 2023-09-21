@@ -1,15 +1,10 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
     flake-utils.url = "github:numtide/flake-utils";
     devshell = {
       url = "github:numtide/devshell";
       inputs.nixpkgs.follows = "nixpkgs";
-    };
-    mach-nix.url = "github:DavHau/mach-nix";
-    zephyr = {
-      url = "github:zephyrproject-rtos/zephyr";
-      flake = false;
     };
   };
 
@@ -34,7 +29,6 @@
               })
             ];
           };
-          mach-nix = inputs.mach-nix.lib.${system};
 
           # parse a filename string from a zephyr sdk release asset
           # returns the following attribute set:
@@ -101,19 +95,62 @@
         rec {
           packages = {
             # a python with all zephyr packages installed
-            zephyr-python = mach-nix.mkPython {
-              python = "python38";
-              requirements = pkgs.lib.concatStringsSep "\n"
-                (builtins.map (x: builtins.readFile x) [
-                  (inputs.zephyr + "/scripts/requirements-base.txt")
-                  (inputs.zephyr + "/scripts/requirements-build-test.txt")
-                  # (inputs.zephyr + "/scripts/requirements-doc.txt")
-                  # TODO make this work
-                  (inputs.zephyr + "/scripts/requirements-run-test.txt")
-                  (inputs.zephyr + "/scripts/requirements-extras.txt")
-                  (inputs.zephyr + "/scripts/requirements-compliance.txt")
-                ]);
-            };
+            zephyr-python = pkgs.python38.withPackages (ps: with ps; [
+              west
+
+              # taken from https://github.com/zephyrproject-rtos/zephyr/tree/main/scripts
+              # out of requirements-*.txt on 2023-09-21
+
+              ### base ###
+              pyelftools
+              pyyaml
+              pykwalify
+              canopen
+              packaging
+              progress
+              psutil
+              pylink-square
+              pyserial
+              requests
+              anytree
+              intelhex
+
+              ### build-test ###
+              colorama
+              ply
+              gcovr
+              coverage
+              pytest
+              mypy
+              mock
+
+              ### compliance ###
+              python-magic
+              lxml
+              junitparser
+              pylint
+              yamllint
+
+              ### extras ###
+              anytree
+              # junit2html
+              # clang-format
+              # lpc_checksum
+              pillow
+              # imgtool
+              grpcio-tools
+              protobuf
+              pygithub
+              graphviz
+              # zcbor
+
+              ### run-test ###
+              pyocd
+              tabulate
+              natsort
+              cbor
+              psutil
+            ]);
           } // (
             let
               lib = pkgs.lib;
