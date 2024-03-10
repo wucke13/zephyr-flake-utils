@@ -1,9 +1,9 @@
 module commands {
-  use std 'log debug'
-  use std 'log info'
-  use std 'log warning'
-  use std 'log error'
-  use std 'log critical'
+  use std log debug
+  use std log info
+  use std log warning
+  use std log error
+  use std log critical
 
   export def "gh fetch" [
     owner:string,

@@ -49,6 +49,7 @@
                 "riscv64"
                 "sparc"
                 "x86_64"
+                "xtensa-dc233c"
                 "xtensa-espressif_esp32"
                 "xtensa-espressif_esp32s2"
                 "xtensa-espressif_esp32s3"
@@ -58,19 +59,32 @@
                 "xtensa-intel_byt_adsp"
                 "xtensa-intel_s1000"
                 "xtensa-intel_tgl_adsp"
+                "xtensa-mtk_mt8195_adsp"
                 "xtensa-nxp_imx8m_adsp"
+                "xtensa-nxp_imx8ulp_adsp"
                 "xtensa-nxp_imx_adsp"
+                "xtensa-nxp_rt500_adsp"
+                "xtensa-nxp_rt600_adsp"
                 "xtensa-sample_controller"
               ];
               regexVariants = x: "(" + (builtins.concatStringsSep "|" x) + ")";
-              regex = "${regexVariants types}(-[0-9.]+)?_${regexVariants host-os}-${regexVariants host-arch}(_${regexVariants target-arch}[-_]([^.]*))?\.(.*)$";
+              regex = "${regexVariants types}(-[0-9.-]+)?_${regexVariants host-os}-${regexVariants host-arch}(_${regexVariants target-arch}[-_]([^.]*))?\.(.*)$";
               xWithCorrectOsNames = builtins.replaceStrings [ "macos" ] [ "darwin" ] x;
               matches = builtins.match regex xWithCorrectOsNames;
-            in
-            rec {
-              type = builtins.elemAt matches 0;
+
+              type = assert matches != null || throw "could not parse ${x}";
+                builtins.elemAt matches 0;
               hostArch = "${builtins.elemAt matches 3}-${builtins.elemAt matches 2}";
               targetArch = builtins.elemAt matches 5;
+            in
+            assert (type != null) || throw "could not determine type for ${x}";
+            assert if type == "hosttools" then hostArch != null else true || throw "hostArch not detected for ${x}";
+            assert if type == "toolchain" then hostArch != null else true || throw "hostArch not detected for ${x}";
+            assert if type == "toolchain" then targetArch != null else true || throw "targetArch not detected for ${x}";
+            assert if type == "zephyr-sdk" then hostArch != null else true || throw "hostArch not detected for ${x}";
+
+            rec {
+              inherit type hostArch targetArch;
             };
 
           # build a zephyr related derivation
@@ -153,6 +167,7 @@
             ]);
           } // (
             let
+              # imports
               lib = pkgs.lib;
               inherit (builtins)
                 filter
@@ -170,8 +185,13 @@
                 optionalString
                 removePrefix
                 removeSuffix;
+
+              # utility functions
               removeFileExt = str: foldl' (acc: ext: removeSuffix ".${ext}" acc) str [ "7z" "tar.gz" "tar.xz" ];
+
               fileNameToVersion = name: removePrefix "v" (removeSuffix ".json" name);
+
+              # actual magic
               dirEntries = readDir ./zephyr-assets;
               assetFiles = filterAttrs (n: v: v == "regular") dirEntries;
               assetFilesList = mapAttrsToList
@@ -184,6 +204,7 @@
                     (fromJSON (readFile (./zephyr-assets + "/${name}"))));
                 })
                 assetFiles;
+
               packagesList = flatten (map
                 (release: map
                   (file:
@@ -198,10 +219,10 @@
             listToAttrs packagesList
           );
 
-          devShell =
+          devShells.default =
             let
-              sdk = packages.zephyr-sdk-0_16_1_linux-x86_64-0_16_1;
-              toolchain = packages.toolchain_linux-x86_64_arm-zephyr-eabi-0_16_1;
+              sdk = packages.zephyr-sdk-0_16_5-1;
+              toolchain = packages.toolchain-arm-0_16_5-1;
             in
             pkgs.mkShell {
               ZEPHYR_TOOLCHAIN_VARIANT = "zephyr";
